@@ -1,0 +1,256 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare Clinic Appointment Portal</title>
+</head>
+<body>
+
+<header>
+    <h1>HealthCare Multi-Specialty Clinic</h1>
+    <p>Your health and well-being are our <strong>top priority</strong>.</p>
+
+    <nav>
+        <a href="#departments">Departments</a> |
+        <a href="#resources">Patient Resources</a> |
+        <a href="#appointment">Appointment</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>About Our Clinic</h2>
+    <p>
+        HealthCare Clinic provides quality medical services through
+        experienced doctors and modern facilities. We offer
+        <em>patient-focused healthcare</em> across multiple departments.
+    </p>
+
+    <figure>
+        <a href="https://example.com" target="_blank">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500"
+                 alt="Modern healthcare clinic building" width="300">
+        </a>
+        <figcaption>Modern clinic facility.</figcaption>
+    </figure>
+
+    <p><mark>Emergency services are available 24 hours.</mark></p>
+</section>
+
+<section id="departments">
+    <h2>Our Services</h2>
+
+    <ul>
+        <li>General Medicine</li>
+        <li>Cardiology</li>
+        <li>Dermatology</li>
+        <li>Pediatrics</li>
+        <li>Orthopedics</li>
+        <li>Dental Care</li>
+    </ul>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500"
+             alt="Doctor providing healthcare consultation" width="300">
+        <figcaption>Professional medical consultation.</figcaption>
+    </figure>
+</section>
+
+<section>
+    <h2>Doctor Profile</h2>
+
+    <article>
+        <h3>Dr. Ananya Sharma — General Physician</h3>
+        <p>
+            Dr. Sharma provides general medical consultations and
+            preventive healthcare guidance. Patients are encouraged to
+            discuss their concerns openly during consultation.
+        </p>
+    </article>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500"
+             alt="Female doctor in a medical clinic" width="250">
+        <figcaption>Our experienced medical professionals.</figcaption>
+    </figure>
+</section>
+
+<section>
+    <h2>Doctor Schedule</h2>
+
+    <table border="1">
+        <caption>Weekly Consultation Schedule</caption>
+        <tr>
+            <th>Specialist</th>
+            <th>Department</th>
+            <th>Days</th>
+            <th>Time</th>
+            <th>Consultation Type</th>
+        </tr>
+        <tr>
+            <td>Dr. Sharma</td><td>General Medicine</td>
+            <td>Mon-Wed</td><td>10 AM-1 PM</td><td>OPD</td>
+        </tr>
+        <tr>
+            <td>Dr. Verma</td><td>Cardiology</td>
+            <td>Tue-Thu</td><td>2 PM-5 PM</td><td>Appointment</td>
+        </tr>
+        <tr>
+            <td>Dr. Singh</td><td>Dermatology</td>
+            <td>Mon-Fri</td><td>11 AM-2 PM</td><td>OPD</td>
+        </tr>
+        <tr>
+            <td>Dr. Gupta</td><td>Pediatrics</td>
+            <td>Wed-Sat</td><td>9 AM-12 PM</td><td>Appointment</td>
+        </tr>
+        <tr>
+            <td>Dr. Khan</td><td>Orthopedics</td>
+            <td>Mon-Fri</td><td>3 PM-6 PM</td><td>OPD</td>
+        </tr>
+        <tr>
+            <td>Dr. Mehta</td><td>Dental Care</td>
+            <td>Tue-Sat</td><td>10 AM-1 PM</td><td>Appointment</td>
+        </tr>
+    </table>
+</section>
+
+<section id="resources">
+    <h2>Appointment Steps</h2>
+
+    <ol>
+        <li>Fill the appointment request form.</li>
+        <li>Select department and doctor.</li>
+        <li>Choose date and preferred time.</li>
+        <li>Provide your health-related reason.</li>
+        <li>Wait for appointment confirmation.</li>
+    </ol>
+
+    <dl>
+        <dt><strong>Consultation</strong></dt>
+        <dd>A discussion between patient and healthcare professional.</dd>
+
+        <dt><strong>Follow-up</strong></dt>
+        <dd>A subsequent visit after an earlier consultation.</dd>
+
+        <dt><strong>OPD</strong></dt>
+        <dd>Outpatient Department for patients who do not require admission.</dd>
+
+        <dt><strong>Appointment</strong></dt>
+        <dd>A scheduled time for meeting a healthcare professional.</dd>
+    </dl>
+</section>
+
+<aside>
+    <h2>Patient Instructions</h2>
+    <p>
+        Please arrive 10 minutes before your appointment and carry
+        previous medical records if relevant.
+    </p>
+    <p>
+        <mark>Do not use this portal for emergency medical situations.</mark>
+    </p>
+</aside>
+
+<section>
+    <h2>Patient Note</h2>
+
+    <blockquote>
+        "Good healthcare begins with listening carefully to every patient."
+    </blockquote>
+
+    <p><cite>— Clinic Patient Care Team</cite></p>
+</section>
+
+<section id="appointment">
+    <h2>Request an Appointment</h2>
+
+    <form>
+        <label>Patient Name:</label>
+        <input type="text" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" required><br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+        <label>Date:</label>
+        <input type="date" required><br><br>
+
+        <label>Preferred Time:</label>
+        <input type="time" required><br><br>
+
+        <label>Department:</label>
+        <select required>
+            <option>General Medicine</option>
+            <option>Cardiology</option>
+            <option>Dermatology</option>
+            <option>Pediatrics</option>
+            <option>Orthopedics</option>
+            <option>Dental Care</option>
+        </select><br><br>
+
+        <label>Doctor:</label>
+        <select required>
+            <option>Dr. Ananya Sharma</option>
+            <option>Dr. Verma</option>
+            <option>Dr. Singh</option>
+            <option>Dr. Gupta</option>
+            <option>Dr. Khan</option>
+            <option>Dr. Mehta</option>
+        </select><br><br>
+
+        <label>Consultation Type:</label>
+        <input type="radio" name="type" required> OPD
+        <input type="radio" name="type"> Appointment<br><br>
+
+        <label>Age:</label>
+        <input type="number" min="1" max="120" required><br><br>
+
+        <label>Reason/Symptoms:</label><br>
+        <textarea rows="4" cols="40" placeholder="Briefly describe your reason"></textarea>
+        <br><br>
+
+        <input type="checkbox" required>
+        I agree to the clinic's appointment terms.
+        <br><br>
+
+        <input type="submit" value="Request Appointment">
+        <input type="reset" value="Reset">
+    </form>
+</section>
+
+<section>
+    <h2>Disclaimer</h2>
+    <p>
+        <strong>Disclaimer:</strong> The information on this page is for
+        general healthcare information only and is not a substitute for
+        professional medical diagnosis or treatment.
+    </p>
+</section>
+
+</main>
+
+<footer id="contact">
+    <h2>Contact & Location</h2>
+
+    <address>
+        HealthCare Multi-Specialty Clinic<br>
+        New Delhi, India<br>
+        Email: info@healthclinic.example<br>
+        Phone: +91-XXXXXXXXXX
+    </address>
+
+    <p>
+        <a href="mailto:info@healthclinic.example">Contact Clinic</a> |
+        <a href="#appointment">Book Appointment</a>
+    </p>
+
+    <p><small>&copy; 2026 HealthCare Clinic. All rights reserved.</small></p>
+</footer>
+
+</body>
+</html>
+```
